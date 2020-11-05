@@ -22,7 +22,7 @@ int ord(data* tab,int max){
     }    
 }
 int main(int argv, char **argc){
-    if(argv!=3){ // huf , fichier entrant, fichier sortant
+    if(argv!=3){ // nom fichier , fichier entrant, fichier sortant
         printf("2 arguments attendus\n"); 
         return 1;
     }
